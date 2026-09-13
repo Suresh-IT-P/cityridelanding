@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CityRideTaxi — Taxi Booking in Salem, Yercaud, Hosur &amp; Across Tamil Nadu</title>
+<meta name="description" content="Book fast, reliable taxis across Tamil Nadu. Upfront price-locked fares, live GPS tracking, verified drivers and 24/7 support for city rides, outstation trips and business travel.">
+<meta name="theme-color" content="#f9f9ff">
+<meta name="author" content="CityRideTaxi">
+<link rel="canonical" href="https://www.cityridetaxi.in/">
+
+<!-- Open Graph / social -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CityRideTaxi">
+<meta property="og:title" content="CityRideTaxi — Your ride is just a tap away">
+<meta property="og:description" content="Fast, reliable and transparent taxi rides for everyday travel, city trips and long-distance intercity journeys across Tamil Nadu.">
+<meta property="og:url" content="https://www.cityridetaxi.in/">
+<meta property="og:image" content="https://www.cityridetaxi.in/assets/img/hero-taxi.jpg">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CityRideTaxi — Your ride is just a tap away">
+<meta name="twitter:description" content="Price-locked fares, live tracking and verified drivers across Tamil Nadu.">
+<meta name="twitter:image" content="https://www.cityridetaxi.in/assets/img/hero-taxi.jpg">
+
+<!-- Icons / manifest -->
+<link rel="icon" href="assets/img/custom-logo.jpg" type="image/jpeg">
+<link rel="apple-touch-icon" href="assets/img/custom-logo.jpg">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;icon_names=account_balance_wallet,add_road,android,arrow_forward,arrow_upward,badge,business_center,call,chat,check_circle,chevron_right,close,content_copy,directions_car,download,drive_eta,e911_emergency,emergency,expand_more,explore,file_download,group,handshake,headset_mic,help,hub,info,insights,local_taxi,login,menu,my_location,payments,person,policy,qr_code_2,receipt_long,route,satellite_alt,schedule,search,share_location,shield,shop,speed,star,support_agent,timer,trending_up,verified,verified_user,wifi_tethering&amp;display=block">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>
+  /* Enable scroll-reveal only when JS and motion are both available. */
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches &&
+      'IntersectionObserver' in window) {
+    document.documentElement.className += ' js-reveal';
+  }
+</script>
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TaxiService",
+  "name": "CityRideTaxi",
+  "description": "Taxi booking platform for city rides, outstation highway trips and corporate travel across Tamil Nadu.",
+  "url": "https://www.cityridetaxi.in/",
+  "logo": "https://www.cityridetaxi.in/assets/img/custom-logo.jpg",
+  "image": "https://www.cityridetaxi.in/assets/img/hero-taxi.jpg",
+  "areaServed": [
+    { "@type": "City", "name": "Salem" },
+    { "@type": "City", "name": "Yercaud" },
+    { "@type": "City", "name": "Hosur" },
+    { "@type": "City", "name": "Coimbatore" },
+    { "@type": "City", "name": "Krishnagiri" },
+    { "@type": "City", "name": "Chennai" }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://www.cityridetaxi.in/",
+    "servicePhone": "+91-1800-000-000"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "1284"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do I book a CityRideTaxi?", "acceptedAnswer": { "@type": "Answer", "text": "Open the CityRide app or web portal, enter your pickup and destination landmarks, preview the upfront fare lock, select your vehicle type, and tap Find a Ride. A nearby verified captain is dispatched instantly." } },
+    { "@type": "Question", "name": "Can I track my driver in real-time?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. As soon as a ride is matched, live GPS telemetry displays the vehicle's position, expected arrival time, vehicle registration plate, and exact waypoint milestones." } },
+    { "@type": "Question", "name": "Can I see my fare before booking?", "acceptedAnswer": { "@type": "Answer", "text": "CityRide operates on an upfront price-lock policy. You receive a complete fare breakdown including base rate, distance cost, and taxes before confirming." } },
+    { "@type": "Question", "name": "Does CityRideTaxi support outstation trips?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we specialise in highway transit across key corridors such as Salem to Yercaud, Salem to Hosur/Bangalore, and Salem to Coimbatore or Chennai with both one-way and round-trip packages." } },
+    { "@type": "Question", "name": "How can I become a driver?", "acceptedAnswer": { "@type": "Answer", "text": "Visit our driver registration page or regional hub with your valid commercial driving badge, vehicle RC, insurance, and Aadhaar card. Onboarding is completed within 24 hours." } },
+    { "@type": "Question", "name": "How can fleet owners partner with CityRideTaxi?", "acceptedAnswer": { "@type": "Answer", "text": "Fleet operators can enrol multiple cabs under our Fleet Concierge module, allowing centralised driver assignment, revenue splitting, and bulk telemetry monitoring." } }
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ======================================================================
+     HEADER
+     ====================================================================== -->
+<header class="site-header">
+  <div class="site-header__bar">
+    <div class="row">
+      <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="nav-drawer" aria-expanded="false">
+        <span class="icon icon--24" aria-hidden="true">menu</span>
+      </button>
+      <a class="brand" href="#top" aria-label="CityRideTaxi home">
+        <img class="brand__mark" src="assets/img/custom-logo.jpg" alt="" style="height:32px; width:auto;">
+        <span class="brand__name">CityRide<em>Taxi</em></span>
+      </a>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a class="site-nav__link" href="#services" aria-current="page">Ride</a>
+      <a class="site-nav__link" href="#drive">Drive</a>
+      <a class="site-nav__link" href="#business">Business</a>
+      <a class="site-nav__link" href="#safety">Safety</a>
+      <a class="site-nav__link" href="#coverage">Coverage</a>
+      <a class="site-nav__link" href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header-actions">
+    </div>
+  </div>
+</header>
+
+<!-- Drawer -->
+<div class="drawer-scrim" id="drawer-scrim" hidden></div>
+<aside class="drawer" id="nav-drawer" aria-label="Menu" aria-hidden="true">
+  <div class="drawer__head">
+    <span class="brand">
+      <img class="brand__mark" src="assets/img/custom-logo.jpg" alt="" style="height:1.75rem; width:auto;">
+      <span class="brand__name">CityRide<em>Taxi</em></span>
+    </span>
+    <button class="icon-btn icon-btn--muted" id="menu-close" type="button" aria-label="Close navigation menu">
+      <span class="icon icon--22" aria-hidden="true">close</span>
+    </button>
+  </div>
+
+
+
+  <nav class="drawer__nav" aria-label="Mobile">
+    <a class="drawer__link" href="#services" aria-current="page"><span class="icon icon--22" aria-hidden="true">directions_car</span><span>Ride</span></a>
+    <a class="drawer__link" href="#drive"><span class="icon icon--22" aria-hidden="true">drive_eta</span><span>Drive</span></a>
+    <a class="drawer__link" href="#business"><span class="icon icon--22" aria-hidden="true">business_center</span><span>Business</span></a>
+    <a class="drawer__link" href="#safety"><span class="icon icon--22" aria-hidden="true">verified_user</span><span>Safety</span></a>
+    <a class="drawer__link" href="#coverage"><span class="icon icon--22" aria-hidden="true">info</span><span>Coverage</span></a>
+
+  </nav>
+
+  <div class="drawer__foot">
+    <div class="drawer__telemetry">
+      <span class="stack">
+        <span class="t-telemetry c-muted">Fleet Telemetry</span>
+        <span class="t-label-md" style="color:var(--on-surface)">TN Highway Grid Active</span>
+      </span>
+      <span class="dot dot--lg is-pulsing" style="background:var(--tertiary-container)" aria-hidden="true"></span>
+    </div>
+  </div>
+</aside>
+
+<main class="shell" id="main">
+<span id="top"></span>
+
+<!-- ======================================================================
+     1. HERO
+     ====================================================================== -->
+<section class="hero" id="book" aria-labelledby="hero-title">
+  <div class="hero__copy">
+    <p class="badge-live">
+      <span class="dot dot--primary is-pulsing" aria-hidden="true"></span>
+      CityRideTaxi • Tamil Nadu Mobility
+    </p>
+
+    <h1 class="t-display hero__title" id="hero-title">Your ride is just a tap away.</h1>
+
+    <p class="t-body-md hero__lede">
+      Fast, reliable, and transparent taxi rides for everyday travel, city trips, and
+      long-distance intercity journeys across Tamil Nadu.
+    </p>
+
+    <div class="hero__actions">
+
+      <a class="btn btn--soft" href="#download-app">
+        <span class="icon icon--20" aria-hidden="true">download</span>
+        <span>Download App</span>
+      </a>
+      <a class="btn btn--amber-fixed" href="#apk-downloads" title="Direct Android APK download">
+        <span class="icon icon--20 btn__lead--primary" aria-hidden="true">android</span>
+        <span>Direct APK (.apk)</span>
+        <span class="btn-chip">38MB</span>
+      </a>
+    </div>
+
+    <ul class="trust-row">
+      <li class="trust-row__item"><span class="icon icon--16" aria-hidden="true">check_circle</span>Live ride tracking</li>
+      <li class="trust-row__item"><span class="icon icon--16" aria-hidden="true">check_circle</span>Transparent fares</li>
+      <li class="trust-row__item"><span class="icon icon--16" aria-hidden="true">check_circle</span>Verified drivers</li>
+    </ul>
+  </div>
+
+  <div class="hero__panel">
+    <div class="hero__media">
+      <img src="assets/img/hero-taxi.jpg"
+           alt="CityRideTaxi sedan on a Tamil Nadu urban corridor at dusk"
+           width="512" height="286" fetchpriority="high" decoding="async">
+      <div class="hero__scrim" aria-hidden="true"></div>
+
+      <div class="hud hud--corridor">
+        <span class="dot dot--lg dot--primary is-pinging" aria-hidden="true"></span>
+        <span class="stack">
+          <span class="t-telemetry c-muted">Active Corridor</span>
+          <span class="t-label-md" style="color:var(--on-surface)">Salem Jct → Yercaud Foothills</span>
+        </span>
+      </div>
+
+      <div class="hud hud--eta">
+        <span class="icon icon--16" aria-hidden="true">timer</span>
+        <span>ETA 04 MIN</span>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- ======================================================================
+     2. TRUST FEATURES
+     ====================================================================== -->
+<section class="section" aria-label="Why riders choose CityRideTaxi">
+  <div class="wrap">
+    <ul class="grid grid--sm-2 grid--lg-4">
+      <li class="feature" data-reveal>
+        <span class="tile-icon tile-icon--amber"><span class="icon icon--24" aria-hidden="true">satellite_alt</span></span>
+        <span class="feature__body">
+          <h3 class="t-headline-md">Live Tracking</h3>
+          <p class="t-body-sm">Know where your driver is in real-time with satellite milestone accuracy.</p>
+        </span>
+      </li>
+      <li class="feature" data-reveal>
+        <span class="tile-icon tile-icon--peach"><span class="icon icon--24" aria-hidden="true">receipt_long</span></span>
+        <span class="feature__body">
+          <h3 class="t-headline-md">Transparent Pricing</h3>
+          <p class="t-body-sm">See your exact fare before you step in. No surprise surge or hidden toll charges.</p>
+        </span>
+      </li>
+      <li class="feature" data-reveal>
+        <span class="tile-icon tile-icon--steel"><span class="icon icon--24" aria-hidden="true">verified_user</span></span>
+        <span class="feature__body">
+          <h3 class="t-headline-md">Verified Drivers</h3>
+          <p class="t-body-sm">Travel with confidence. Commercial badges, background checks, and clean vehicles.</p>
+        </span>
+      </li>
+      <li class="feature" data-reveal>
+        <span class="tile-icon tile-icon--slate"><span class="icon icon--24" aria-hidden="true">support_agent</span></span>
+        <span class="feature__body">
+          <h3 class="t-headline-md">24/7 Support</h3>
+          <p class="t-body-sm">Human assistance on call at any hour for local city routes and highway transits.</p>
+        </span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ======================================================================
+     3. SERVICES
+     ====================================================================== -->
+<section class="section section--spaced" id="services" aria-labelledby="services-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Tailored Fleet Tiers</p>
+      <h2 class="t-headline-lg c-ink" id="services-title">One platform. Every journey.</h2>
+      <p class="t-body-sm">Whether you're travelling across town or heading along state highway corridors, CityRideTaxi is designed around how you move.</p>
+    </header>
+
+    <div class="grid grid--lg-3">
+      <!-- City Rides -->
+      <article class="service" data-reveal>
+        <div class="service__head">
+          <div class="service__id">
+            <span class="tile-icon tile-icon--xs tile-icon--ghost"><span class="icon icon--20" aria-hidden="true">local_taxi</span></span>
+            <div>
+              <h3 class="t-headline-md">City Rides</h3>
+              <span class="t-telemetry c-muted">Intra-City • Quick Dispatch</span>
+            </div>
+          </div>
+          <span class="pill pill--high">From ₹99</span>
+        </div>
+        <p class="t-body-sm">Convenient on-demand sedans and hatchbacks for everyday urban runs, market visits, and office transit.</p>
+
+      </article>
+
+      <!-- Outstation -->
+      <article class="service" data-reveal>
+        <span class="service__flare" aria-hidden="true"></span>
+        <div class="service__head">
+          <div class="service__id">
+            <span class="tile-icon tile-icon--xs tile-icon--amber"><span class="icon icon--20" aria-hidden="true">add_road</span></span>
+            <div>
+              <h3 class="t-headline-md">Outstation</h3>
+              <span class="t-telemetry c-muted">Intercity • One-way &amp; Round</span>
+            </div>
+          </div>
+          <span class="pill pill--amber">Toll Predictor</span>
+        </div>
+        <p class="t-body-sm">Comfortable point-to-point highway rides connecting Salem, Yercaud, Coimbatore, Hosur, and Chennai with verified highway captains.</p>
+
+      </article>
+
+      <!-- Business -->
+      <article class="service" id="business" data-reveal>
+        <div class="service__head">
+          <div class="service__id">
+            <span class="tile-icon tile-icon--xs tile-icon--steel"><span class="icon icon--20" aria-hidden="true">business_center</span></span>
+            <div>
+              <h3 class="t-headline-md">Business Travel</h3>
+              <span class="t-telemetry c-muted">Corporate Billing • GST Invoices</span>
+            </div>
+          </div>
+          <span class="pill pill--neutral">Monthly Ledger</span>
+        </div>
+        <p class="t-body-sm">Centralized dashboard for team commutes, executive airport pick-ups, and automated GST-compliant reconciliation.</p>
+        <a class="btn btn--quiet-ink btn--sm btn--block" href="#contact">
+          <span>Explore Business</span>
+          <span class="icon icon--16" aria-hidden="true">arrow_forward</span>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     4. BOOKING EXPERIENCE & APP SHOWCASE
+     ====================================================================== -->
+<section class="section section--spaced section--tint" aria-labelledby="experience-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Intuitive Passenger UX</p>
+      <h2 class="t-headline-lg c-ink" id="experience-title">Everything you need, right in your ride.</h2>
+    </header>
+
+    <div class="split split--wide-right">
+      <!-- Phone mockup -->
+      <div class="phone" data-reveal>
+        <div class="phone__screen">
+          <div class="phone__status">
+            <span class="row row--tight">
+              <span class="dot" style="width:.5rem;height:.5rem;background:var(--tertiary-container)" aria-hidden="true"></span>
+              <span class="t-telemetry c-muted">Active Dispatch</span>
+            </span>
+            <span class="t-telemetry c-primary">CR-8924</span>
+          </div>
+
+          <div class="mini-map">
+            <span class="mini-map__grid" aria-hidden="true"></span>
+            <div class="mini-map__route">
+              <span class="mini-map__node">
+                <span class="node-origin" aria-hidden="true"></span>
+                <span class="t-telemetry" style="color:var(--on-surface)">Salem</span>
+              </span>
+              <span class="mini-map__line" aria-hidden="true">
+                <span class="mini-map__cab"><span class="icon icon--12" aria-hidden="true">local_taxi</span></span>
+              </span>
+              <span class="mini-map__node">
+                <span class="node-dest" aria-hidden="true"></span>
+                <span class="t-telemetry" style="color:var(--on-surface)">Yercaud</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="telemetry-strip">
+            <div>
+              <span class="t-telemetry c-muted">Distance</span>
+              <span class="t-label-lg" style="color:var(--on-surface)">32.4 km</span>
+            </div>
+            <div>
+              <span class="t-telemetry c-muted">ETA</span>
+              <span class="t-label-lg c-primary">42 min</span>
+            </div>
+            <div>
+              <span class="t-telemetry c-muted">Category</span>
+              <span class="t-label-lg" style="color:var(--on-surface)">Sedan</span>
+            </div>
+          </div>
+
+          <div class="driver-chip">
+            <div class="row">
+              <span class="avatar avatar--md avatar--ink">RK</span>
+              <span class="stack">
+                <span class="t-label-lg t-semibold" style="color:var(--on-surface)">Rajesh K</span>
+                <span class="row row--tight">
+                  <span class="icon icon--14 icon--fill c-green" aria-hidden="true">star</span>
+                  <span class="t-telemetry c-muted">4.9 • TN 30 AX 4967</span>
+                </span>
+              </span>
+            </div>
+            <div class="row row--tight">
+              <button class="icon-btn icon-btn--round c-primary" type="button" aria-label="Call driver">
+                <span class="icon icon--16" aria-hidden="true">call</span>
+              </button>
+              <button class="icon-btn icon-btn--round c-muted" type="button" aria-label="Chat with driver">
+                <span class="icon icon--16" aria-hidden="true">chat</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Steps -->
+      <div class="stack stack--md">
+        <ol class="grid grid--sm-2">
+          <li class="step" data-reveal>
+            <span class="step__num">1</span>
+            <div>
+              <h3 class="t-label-lg t-semibold">Simple Booking</h3>
+              <p class="t-body-sm">Enter destination and choose your vehicle category in two taps.</p>
+            </div>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">2</span>
+            <div>
+              <h3 class="t-label-lg t-semibold">Know Your Fare</h3>
+              <p class="t-body-sm">See upfront exact estimate before dispatching your captain.</p>
+            </div>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">3</span>
+            <div>
+              <h3 class="t-label-lg t-semibold">Track in Real Time</h3>
+              <p class="t-body-sm">Follow GPS arrival milestones directly on our localized map.</p>
+            </div>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">4</span>
+            <div>
+              <h3 class="t-label-lg t-semibold">Stay Connected</h3>
+              <p class="t-body-sm">Receive masked in-app calling, SOS, and trip receipt notifications.</p>
+            </div>
+          </li>
+        </ol>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     5. FARE TRANSPARENCY
+     ====================================================================== -->
+<section class="section section--spaced" id="fares" aria-labelledby="fares-title">
+  <div class="wrap">
+    <div class="split">
+      <header class="section-head">
+        <p class="eyebrow eyebrow--tertiary">Predictable Pricing</p>
+        <h2 class="t-headline-lg c-ink" id="fares-title">No surprises. Just transparent fares.</h2>
+        <p class="t-body-sm">Understand exactly what you are paying before confirming your departure.</p>
+      </header>
+
+      <article class="fare" data-reveal>
+        <div class="fare__head">
+          <span class="row row--tight">
+            <span class="dot dot--xl dot--primary" aria-hidden="true"></span>
+            <span class="t-label-lg t-semibold" style="color:var(--on-surface)">Salem Jct → Yercaud Lake</span>
+          </span>
+          <span class="tag tag--quiet">UI Estimate</span>
+        </div>
+
+        <div class="fare__lines">
+          <div class="fare__line">
+            <span><span class="icon icon--16 c-muted" aria-hidden="true">route</span>Total Route Distance</span>
+            <strong>32.4 km</strong>
+          </div>
+          <div class="fare__line">
+            <span>Base Fare (incl. initial 3 km)</span>
+            <strong>₹180.00</strong>
+          </div>
+          <div class="fare__line">
+            <span>Distance Fare (29.4 km × ₹16.53/km)</span>
+            <strong>₹486.00</strong>
+          </div>
+          <div class="fare__line fare__line--free">
+            <span><span class="icon icon--16" aria-hidden="true">verified</span>Dynamic Peak Multiplier</span>
+            <span>₹0.00 (Zero Surge)</span>
+          </div>
+          <div class="fare__line">
+            <span>GST (5%)</span>
+            <strong>₹33.00</strong>
+          </div>
+        </div>
+
+        <div class="fare__total">
+          <span class="stack">
+            <span class="t-telemetry c-muted">All-Inclusive Estimate</span>
+            <strong>₹699.00</strong>
+          </span>
+          <span class="pill pill--fixed">Price Locked</span>
+        </div>
+
+        <p class="t-body-sm fare__note">
+          *Upfront fare includes state road transit allowances. State tolls, if encountered, are
+          billed on actuals with zero commission markup.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     6. LIVE RIDE TRACKING
+     ====================================================================== -->
+<section class="section section--spaced section--ink" id="tracking" aria-labelledby="tracking-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow eyebrow--fixed eyebrow--row">
+        <span class="dot dot--primary is-pinging" aria-hidden="true"></span>
+        Autonomous Radar
+      </p>
+      <h2 class="t-headline-lg" id="tracking-title">Know where your ride is.</h2>
+      <p class="t-body-sm">Stay informed from doorstep pickup to final drop with microsecond location telemetry.</p>
+    </header>
+
+    <div class="split">
+      <div class="radar" data-reveal>
+        <span class="radar__grid" aria-hidden="true"></span>
+
+        <div class="radar__head">
+          <span class="radar__chip">Live GPS Feed: Active</span>
+          <span class="radar__signal">
+            <span class="icon icon--16" aria-hidden="true">wifi_tethering</span>
+            <span>4G Telemetry</span>
+          </span>
+        </div>
+
+        <div class="radar__path">
+          <span class="radar__node radar__node--origin">
+            <span aria-hidden="true"></span>
+            <span class="t-telemetry">Pickup</span>
+          </span>
+          <span class="radar__track" aria-hidden="true">
+            <span class="radar__cab"><span class="icon icon--16" aria-hidden="true">directions_car</span></span>
+          </span>
+          <span class="radar__node radar__node--dest">
+            <span aria-hidden="true"></span>
+            <span class="t-telemetry">Drop</span>
+          </span>
+        </div>
+
+        <div class="radar__foot">
+          <span class="t-telemetry">Speed: 48 km/h</span>
+          <span class="t-telemetry">Lat: 11.6643° N, 78.1460° E</span>
+        </div>
+      </div>
+
+      <article class="dispatch" data-reveal>
+        <div class="dispatch__head">
+          <div>
+            <span class="t-telemetry c-primary">Dispatch in Route</span>
+            <h3 class="t-headline-md">Your driver is on the way</h3>
+          </div>
+          <span class="dispatch__otp">OTP 4819</span>
+        </div>
+
+        <div class="dispatch__driver">
+          <div class="row">
+            <span class="tile-icon tile-icon--sm tile-icon--ink" style="width:3rem;height:3rem;border-radius:var(--radius-md)">
+              <span class="icon icon--24" aria-hidden="true">person</span>
+            </span>
+            <span class="stack">
+              <span class="t-label-lg t-semibold c-ink">Rajesh (Sedan)</span>
+              <span class="plate">TN 30 AX 4967</span>
+            </span>
+          </div>
+          <div class="dispatch__eta">
+            <strong>04 MIN</strong>
+            <span class="row" style="gap:.125rem;color:var(--tertiary-container)">
+              <span class="icon icon--14 icon--fill" aria-hidden="true">star</span>
+              <span class="t-telemetry">4.9</span>
+            </span>
+          </div>
+        </div>
+
+        <a class="btn btn--ink btn--sm btn--block" href="#download-app">
+          <span>Experience CityRideTaxi</span>
+          <span class="icon icon--18" aria-hidden="true">arrow_forward</span>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     7. SAFETY
+     ====================================================================== -->
+<section class="section section--spaced" id="safety" aria-labelledby="safety-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow eyebrow--error eyebrow--row">
+        <span class="icon icon--16" aria-hidden="true">shield</span>
+        Safety First Framework
+      </p>
+      <h2 class="t-headline-lg c-ink" id="safety-title">Your safety comes first.</h2>
+      <p class="t-body-sm">Engineered with features that help you stay informed, protected, and connected through every kilometer.</p>
+    </header>
+
+    <ul class="grid grid--sm-2 grid--lg-4">
+      <li class="safety-card" data-reveal>
+        <span class="tile-icon tile-icon--sm tile-icon--ghost"><span class="icon icon--20" aria-hidden="true">badge</span></span>
+        <h3 class="t-label-lg t-semibold">Verified Drivers</h3>
+        <p class="t-body-sm">Identity records, commercial badges, and vehicle condition verified before joining.</p>
+      </li>
+      <li class="safety-card" data-reveal>
+        <span class="tile-icon tile-icon--sm tile-icon--ghost"><span class="icon icon--20" aria-hidden="true">share_location</span></span>
+        <h3 class="t-label-lg t-semibold">Real-Time Tracking</h3>
+        <p class="t-body-sm">Share live location links with family and friends that open instantly in any mobile browser.</p>
+      </li>
+      <li class="safety-card" data-reveal>
+        <span class="tile-icon tile-icon--sm tile-icon--danger"><span class="icon icon--20" aria-hidden="true">emergency</span></span>
+        <h3 class="t-label-lg t-semibold">SOS Support</h3>
+        <p class="t-body-sm">1-tap SOS auto-alerts CityRide safety response desk and triggers local emergency services.</p>
+      </li>
+      <li class="safety-card" data-reveal>
+        <span class="tile-icon tile-icon--sm tile-icon--ghost"><span class="icon icon--20" aria-hidden="true">policy</span></span>
+        <h3 class="t-label-lg t-semibold">Trip Information</h3>
+        <p class="t-body-sm">Digital trip insurance coverage and direct helpline details accessible in every ride receipt.</p>
+      </li>
+    </ul>
+
+    <div class="sos-strip">
+      <div class="sos-strip__id">
+        <span class="tile-icon tile-icon--sos is-pulsing"><span class="icon icon--22" aria-hidden="true">e911_emergency</span></span>
+        <span class="stack">
+          <span class="t-label-lg t-semibold" style="color:var(--on-surface)">Emergency Response</span>
+          <span class="t-telemetry c-muted">Direct Connect with TN Police Emergency (112)</span>
+        </span>
+      </div>
+      <button class="btn btn--paper btn--xs" type="button" data-toast="Safety protocol sent to your registered email.">Read Protocol</button>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     8. DRIVER ACQUISITION
+     ====================================================================== -->
+<section class="section section--spaced section--tint" id="drive" aria-labelledby="drive-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Driver Opportunities</p>
+      <h2 class="t-headline-lg c-ink" id="drive-title">Drive with CityRideTaxi</h2>
+      <p class="t-body-sm">Turn your driving hours into reliable, transparent earnings on a platform built respect first for captains.</p>
+    </header>
+
+    <ul class="grid grid--2 grid--tight grid--lg-4">
+      <li class="perk" data-reveal>
+        <span class="icon icon--20" aria-hidden="true">schedule</span>
+        <span class="t-label-lg t-semibold perk__title">Flexible Driving</span>
+        <span class="t-body-sm perk__meta">Drive whenever suits your schedule.</span>
+      </li>
+      <li class="perk" data-reveal>
+        <span class="icon icon--20" aria-hidden="true">account_balance_wallet</span>
+        <span class="t-label-lg t-semibold perk__title">Instant Weekly Payouts</span>
+        <span class="t-body-sm perk__meta">Direct bank settlement with zero delay.</span>
+      </li>
+      <li class="perk" data-reveal>
+        <span class="icon icon--20" aria-hidden="true">trending_up</span>
+        <span class="t-label-lg t-semibold perk__title">Zero Predatory Cut</span>
+        <span class="t-body-sm perk__meta">Transparent, predictable platform margins.</span>
+      </li>
+      <li class="perk" data-reveal>
+        <span class="icon icon--20" aria-hidden="true">headset_mic</span>
+        <span class="t-label-lg t-semibold perk__title">24/7 Driver Help</span>
+        <span class="t-body-sm perk__meta">Direct regional captain support line.</span>
+      </li>
+    </ul>
+
+    <div class="row row--wrap" style="padding-top:.25rem">
+      <a class="btn btn--primary" href="#contact">
+        <span>Become a Driver</span>
+        <span class="icon icon--18" aria-hidden="true">arrow_forward</span>
+      </a>
+      <a class="btn btn--tonal" href="#faq">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     9. FLEET & VENDOR PARTNERS
+     ====================================================================== -->
+<section class="section section--spaced" id="fleet" aria-labelledby="fleet-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow eyebrow--tertiary">Commercial Operators</p>
+      <h2 class="t-headline-lg c-ink" id="fleet-title">Grow your fleet with CityRideTaxi</h2>
+      <p class="t-body-sm">Bring multiple vehicles and drivers onto a unified mobility management platform.</p>
+    </header>
+
+    <ul class="grid grid--2 grid--tight grid--sm-3 grid--lg-6">
+      <li class="perk perk--muted" data-reveal>
+        <span class="icon icon--22" aria-hidden="true">directions_car</span>
+        <span class="t-label-md t-semibold perk__title">Manage Vehicles</span>
+        <span class="t-telemetry perk__meta">Telemetry &amp; status</span>
+      </li>
+      <li class="perk perk--muted" data-reveal>
+        <span class="icon icon--22" aria-hidden="true">group</span>
+        <span class="t-label-md t-semibold perk__title">Manage Drivers</span>
+        <span class="t-telemetry perk__meta">Duty shifts &amp; logs</span>
+      </li>
+      <li class="perk perk--muted" data-reveal>
+        <span class="icon icon--22" aria-hidden="true">insights</span>
+        <span class="t-label-md t-semibold perk__title">Monitor Trips</span>
+        <span class="t-telemetry perk__meta">Real-time dispatch</span>
+      </li>
+      <li class="perk perk--muted" data-reveal>
+        <span class="icon icon--22" aria-hidden="true">speed</span>
+        <span class="t-label-md t-semibold perk__title">Track Performance</span>
+        <span class="t-telemetry perk__meta">Efficiency metrics</span>
+      </li>
+      <li class="perk perk--muted" data-reveal>
+        <span class="icon icon--22" aria-hidden="true">payments</span>
+        <span class="t-label-md t-semibold perk__title">Manage Earnings</span>
+        <span class="t-telemetry perk__meta">Automated split ledger</span>
+      </li>
+      <li class="perk perk--muted" data-reveal>
+        <span class="icon icon--22" aria-hidden="true">hub</span>
+        <span class="t-label-md t-semibold perk__title">Centralized Ops</span>
+        <span class="t-telemetry perk__meta">Single admin console</span>
+      </li>
+    </ul>
+
+    <a class="btn btn--ink btn--block" href="#contact">
+      <span>Partner With Us</span>
+      <span class="icon icon--18" aria-hidden="true">handshake</span>
+    </a>
+  </div>
+</section>
+
+<!-- ======================================================================
+     10. APP DOWNLOAD
+     ====================================================================== -->
+<section class="section section--spaced section--paper" id="download-app" aria-labelledby="download-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow eyebrow--row">
+        <span class="icon icon--18" aria-hidden="true">android</span>
+        Official Android APK &amp; Store Releases
+      </p>
+      <h2 class="t-headline-lg c-ink" id="download-title">Your city. Your rides. One app.</h2>
+      <p class="t-body-sm">Download CityRideTaxi for high-speed booking, accurate telemetry, and verified rides. Install instantly via Google Play, App Store, or direct standalone APK sideload.</p>
+    </header>
+
+    <div class="tabs" role="tablist" aria-label="App download options">
+      <button class="tabs__btn" id="tab-customer" type="button" role="tab" aria-selected="true" aria-controls="download-panel" data-tab="customer">Customer App</button>
+      <button class="tabs__btn" id="tab-driver" type="button" role="tab" aria-selected="false" aria-controls="download-panel" data-tab="driver">Driver App</button>
+      <button class="tabs__btn" id="tab-vendor" type="button" role="tab" aria-selected="false" aria-controls="download-panel" data-tab="vendor">Vendor App</button>
+      <button class="tabs__btn" id="tab-apk" type="button" role="tab" aria-selected="false" aria-controls="download-panel" data-tab="apk">
+        <span class="icon icon--16" aria-hidden="true">android</span>
+        <span>Direct APKs</span>
+      </button>
+    </div>
+
+    <div class="download-panel" id="apk-downloads" role="tabpanel" aria-labelledby="tab-customer" tabindex="0">
+      <div class="download-panel__head" id="download-panel">
+        <span class="qr">
+          <span class="icon icon--36" aria-hidden="true">qr_code_2</span>
+          <span class="t-telemetry c-muted">Scan for APK</span>
+        </span>
+        <div class="stack" style="min-width:0">
+          <div class="row row--wrap" style="gap:.5rem">
+            <span class="t-label-lg t-bold" style="color:var(--on-surface)" data-app="heading">CityRide for Android &amp; iOS</span>
+            <span class="tag tag--amber tag--round" data-app="badge">v2.4.1 Stable</span>
+          </div>
+          <p class="t-body-sm c-muted" data-app="desc">Instant booking, fare lock, and live track your driver directly from your smartphone.</p>
+          <span class="row row--tight c-primary t-telemetry" style="margin-top:.25rem">
+            <span class="dot dot--primary" aria-hidden="true"></span>
+            <span data-app="submeta">No Play Store required • 38 MB • SHA-256 Verified</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="apk-card">
+        <div class="apk-card__head">
+          <div class="apk-card__id">
+            <span class="tile-icon tile-icon--sm tile-icon--solid" style="border-radius:var(--radius-md)">
+              <span class="icon icon--24" aria-hidden="true">android</span>
+            </span>
+            <span class="stack">
+              <span class="row row--tight row--wrap">
+                <span class="t-label-lg t-bold" style="color:var(--on-surface)" data-app="pkg">cityride-customer-v2.4.1.apk</span>
+                <span class="tag tag--high">Official</span>
+              </span>
+              <span class="t-telemetry c-muted" data-app="abi">Universal APK (ARM64, v7a, x86_64) • Android 6.0+</span>
+            </span>
+          </div>
+          <span class="apk-card__size" data-app="size">38.4 MB</span>
+        </div>
+
+        <div class="apk-card__actions">
+          <a class="btn btn--primary" href="#apk-downloads" id="apk-download" data-app="cta-href" download>
+            <span class="icon icon--20" aria-hidden="true">download</span>
+            <span data-app="cta">Download Direct APK (v2.4.1)</span>
+          </a>
+          <button class="btn btn--outline" type="button" id="verify-sha">
+            <span class="icon icon--18" style="color:var(--tertiary)" aria-hidden="true">verified_user</span>
+            <span>Verify SHA-256</span>
+          </button>
+        </div>
+      </div>
+
+
+
+      <p class="sideload t-telemetry">
+        <span class="row row--tight">
+          <span class="icon icon--18 c-primary" aria-hidden="true">help</span>
+          <span>Installing APK directly: enable "Install from Unknown Sources" in Settings when prompted.</span>
+        </span>
+        <button class="sideload__link t-telemetry" type="button" id="sideload-guide">Guide</button>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     11. SERVICE COVERAGE
+     ====================================================================== -->
+<section class="section section--spaced" id="coverage" aria-labelledby="coverage-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Regional Footprint</p>
+      <h2 class="t-headline-lg c-ink" id="coverage-title">CityRideTaxi is built for local travel.</h2>
+      <p class="t-body-sm">Intercity highway lines and daily transit corridors linking major hubs in Tamil Nadu.</p>
+    </header>
+
+    <ul class="grid grid--2 grid--sm-3 grid--lg-6">
+      <li class="hub" data-reveal>
+        <span class="hub__head"><span>Salem</span><span class="dot dot--green" aria-hidden="true"></span></span>
+        <span class="t-telemetry c-muted">Primary Central Hub</span>
+        <span class="t-body-sm hub__route">Junction • New Bus Stand</span>
+      </li>
+      <li class="hub" data-reveal>
+        <span class="hub__head"><span>Yercaud</span><span class="dot dot--green" aria-hidden="true"></span></span>
+        <span class="t-telemetry c-muted">Hill Station Corridor</span>
+        <span class="t-body-sm hub__route">Loop Road • Lake View</span>
+      </li>
+      <li class="hub" data-reveal>
+        <span class="hub__head"><span>Hosur</span><span class="dot dot--green" aria-hidden="true"></span></span>
+        <span class="t-telemetry c-muted">Industrial Transit</span>
+        <span class="t-body-sm hub__route">SIPCOT • Interstate Line</span>
+      </li>
+      <li class="hub" data-reveal>
+        <span class="hub__head"><span>Coimbatore</span><span class="dot dot--green" aria-hidden="true"></span></span>
+        <span class="t-telemetry c-muted">Western Corridor</span>
+        <span class="t-body-sm hub__route">Gandhipuram • Airport</span>
+      </li>
+      <li class="hub" data-reveal>
+        <span class="hub__head"><span>Krishnagiri</span><span class="dot dot--green" aria-hidden="true"></span></span>
+        <span class="t-telemetry c-muted">Highway Junction</span>
+        <span class="t-body-sm hub__route">NH 44 • Toll Plaza</span>
+      </li>
+      <li class="hub" data-reveal>
+        <span class="hub__head"><span>Chennai</span><span class="dot dot--green" aria-hidden="true"></span></span>
+        <span class="t-telemetry c-muted">State Capital Outstation</span>
+        <span class="t-body-sm hub__route">GST Road • Koyambedu</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ======================================================================
+     12. TESTIMONIALS
+     ====================================================================== -->
+<section class="section section--spaced section--tint" aria-labelledby="reviews-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Passenger Feedback</p>
+      <h2 class="t-headline-lg c-ink" id="reviews-title">Loved by riders</h2>
+      <p class="t-body-sm">Verified journeys across city streets and ghat highways.</p>
+    </header>
+
+    <div class="grid grid--lg-3" style="gap:.75rem">
+      <figure class="review" data-reveal>
+        <div class="review__head">
+          <div class="review__id">
+            <span class="avatar avatar--amber">AK</span>
+            <span class="stack">
+              <span class="t-label-md t-semibold" style="color:var(--on-surface)">Anand K.</span>
+              <span class="t-telemetry c-muted">Salem • Verified Rider</span>
+            </span>
+          </div>
+          <span class="tag tag--neutral">Salem → Yercaud</span>
+        </div>
+        <div class="stars" aria-label="Rated 5 out of 5">
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+        </div>
+        <blockquote>"Booked for an uphill family trip to Yercaud Lake. The upfront fare was locked at ₹699, vehicle was spotless, and the driver took the hairpin bends with calm expertise."</blockquote>
+      </figure>
+
+      <figure class="review" data-reveal>
+        <div class="review__head">
+          <div class="review__id">
+            <span class="avatar avatar--peach">SP</span>
+            <span class="stack">
+              <span class="t-label-md t-semibold" style="color:var(--on-surface)">Saranya P.</span>
+              <span class="t-telemetry c-muted">Hosur • Verified Rider</span>
+            </span>
+          </div>
+          <span class="tag tag--neutral">Daily Commute</span>
+        </div>
+        <div class="stars" aria-label="Rated 5 out of 5">
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+        </div>
+        <blockquote>"No cancellations at peak hours. I rely on CityRide to get from SIPCOT phase 2 to the town bus stand every single evening."</blockquote>
+      </figure>
+
+      <figure class="review" data-reveal>
+        <div class="review__head">
+          <div class="review__id">
+            <span class="avatar avatar--slate">MR</span>
+            <span class="stack">
+              <span class="t-label-md t-semibold" style="color:var(--on-surface)">Manojkumar R.</span>
+              <span class="t-telemetry c-muted">Coimbatore • Business Rider</span>
+            </span>
+          </div>
+          <span class="tag tag--neutral">Business Trip</span>
+        </div>
+        <div class="stars" aria-label="Rated 5 out of 5">
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+          <span class="icon icon--16 icon--fill" aria-hidden="true">star</span>
+        </div>
+        <blockquote>"GST invoices sent straight to my inbox immediately upon completing the trip. Outstanding executive reliability for intercity meetings."</blockquote>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     13. FAQ
+     ====================================================================== -->
+<section class="section section--spaced" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="split">
+      <header class="section-head">
+        <p class="eyebrow">Clarifications</p>
+        <h2 class="t-headline-lg c-ink" id="faq-title">Frequently Asked Questions</h2>
+        <p class="t-body-sm">Quick answers about booking, pricing models, and driver policies.</p>
+      </header>
+
+      <div class="faq" id="faq-accordion">
+        <div class="faq__item">
+          <h3>
+            <button class="faq__btn" type="button" aria-expanded="false" aria-controls="faq-p1" id="faq-b1">
+              <span>How do I book a CityRideTaxi?</span>
+              <span class="icon icon--20" aria-hidden="true">expand_more</span>
+            </button>
+          </h3>
+          <div class="faq__panel" id="faq-p1" role="region" aria-labelledby="faq-b1" data-open="false">
+            <div><p>Simply open the CityRide app or web portal, enter your pickup and destination landmarks, preview the upfront fare lock, select your vehicle type, and tap "Find a Ride". A nearby verified captain is dispatched instantly.</p></div>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3>
+            <button class="faq__btn" type="button" aria-expanded="false" aria-controls="faq-p2" id="faq-b2">
+              <span>Can I track my driver in real-time?</span>
+              <span class="icon icon--20" aria-hidden="true">expand_more</span>
+            </button>
+          </h3>
+          <div class="faq__panel" id="faq-p2" role="region" aria-labelledby="faq-b2" data-open="false">
+            <div><p>Yes! As soon as a ride is matched, live GPS telemetry displays the vehicle's position, expected arrival time, vehicle registration plate, and exact waypoint milestones.</p></div>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3>
+            <button class="faq__btn" type="button" aria-expanded="false" aria-controls="faq-p3" id="faq-b3">
+              <span>Can I see my fare before booking?</span>
+              <span class="icon icon--20" aria-hidden="true">expand_more</span>
+            </button>
+          </h3>
+          <div class="faq__panel" id="faq-p3" role="region" aria-labelledby="faq-b3" data-open="false">
+            <div><p>Absolutely. CityRide operates on an upfront price-lock policy. You receive a complete fare breakdown including base rate, distance cost, and taxes before confirming.</p></div>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3>
+            <button class="faq__btn" type="button" aria-expanded="false" aria-controls="faq-p4" id="faq-b4">
+              <span>Does CityRideTaxi support outstation trips?</span>
+              <span class="icon icon--20" aria-hidden="true">expand_more</span>
+            </button>
+          </h3>
+          <div class="faq__panel" id="faq-p4" role="region" aria-labelledby="faq-b4" data-open="false">
+            <div><p>Yes, we specialize in highway transit across key corridors such as Salem to Yercaud, Salem to Hosur/Bangalore, and Salem to Coimbatore or Chennai with both one-way and round-trip packages.</p></div>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3>
+            <button class="faq__btn" type="button" aria-expanded="false" aria-controls="faq-p5" id="faq-b5">
+              <span>How can I become a driver?</span>
+              <span class="icon icon--20" aria-hidden="true">expand_more</span>
+            </button>
+          </h3>
+          <div class="faq__panel" id="faq-p5" role="region" aria-labelledby="faq-b5" data-open="false">
+            <div><p>Visit our driver registration page or regional hub with your valid commercial driving badge, vehicle RC, insurance, and Aadhaar card. Onboarding is completed within 24 hours.</p></div>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3>
+            <button class="faq__btn" type="button" aria-expanded="false" aria-controls="faq-p6" id="faq-b6">
+              <span>How can fleet owners partner with CityRideTaxi?</span>
+              <span class="icon icon--20" aria-hidden="true">expand_more</span>
+            </button>
+          </h3>
+          <div class="faq__panel" id="faq-p6" role="region" aria-labelledby="faq-b6" data-open="false">
+            <div><p>Fleet operators can enroll multiple cabs under our Fleet Concierge module, allowing centralized driver assignment, revenue splitting, and bulk telemetry monitoring.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     14. FINAL CTA
+     ====================================================================== -->
+<section class="section section--tall section--ink" id="contact" aria-labelledby="cta-title">
+  <div class="wrap final-cta">
+    <span class="final-cta__badge"><span class="icon icon--28" aria-hidden="true">local_taxi</span></span>
+    <h2 class="t-headline-lg" id="cta-title">Wherever you're going, ride with confidence.</h2>
+    <p class="t-body-md">CityRideTaxi — smarter mobility for everyday journeys and highway journeys across Tamil Nadu.</p>
+    <div class="final-cta__actions">
+
+      <a class="btn btn--soft btn--block" href="#download-app">
+        <span class="icon icon--18" aria-hidden="true">download</span>
+        <span>Download the App</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================================
+     15. FOOTER
+     ====================================================================== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <a class="brand" href="#top" aria-label="CityRideTaxi home">
+        <img class="brand__mark" src="assets/img/custom-logo.jpg" alt="" style="height:32px; width:auto;">
+        <span class="brand__name">CityRide<em>Taxi</em></span>
+      </a>
+      <p class="t-body-sm">Street-level transit precision and intercity corridor mobility. Engineered for South Indian transit grids.</p>
+    </div>
+
+    <nav class="footer-cols" aria-label="Footer">
+      <div class="footer-col">
+        <span>Riders</span>
+
+        <a href="#tracking">Trip History</a>
+        <a href="#safety">Safety Hub</a>
+        <a href="#fares">Fare Transparency</a>
+      </div>
+      <div class="footer-col">
+        <span>Drivers &amp; Fleets</span>
+        <a href="#drive">Become a Captain</a>
+
+        <a href="#fleet">Fleet Operator Hub</a>
+        <a href="#fleet">Vehicle Standards</a>
+      </div>
+      <div class="footer-col">
+        <span>Company</span>
+        <a href="#coverage">About Us</a>
+        <a href="#business">Business Transit</a>
+        <a href="#contact">Careers</a>
+        <a href="#contact">Press &amp; Media</a>
+      </div>
+      <div class="footer-col">
+        <span>Legal &amp; Trust</span>
+        <a href="#faq">Privacy Policy</a>
+        <a href="#faq">Terms of Service</a>
+        <a href="#safety">Emergency Protocol</a>
+        <a href="#contact">Grievance Redressal</a>
+      </div>
+    </nav>
+
+    <div class="footer-bottom t-telemetry">
+      <span>Copyright © 2026 CityRideTaxi. All rights reserved.</span>
+      <div class="footer-bottom__links">
+        <a href="#coverage">TN Transit Grid</a>
+        <a href="#contact">Support Desk (24/7)</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</main>
+
+<!-- ======================================================================
+     MOBILE BOTTOM NAV
+     ====================================================================== -->
+<nav class="bottom-nav" aria-label="Quick actions">
+  <div class="bottom-nav__bar">
+    <div class="bottom-nav__links">
+      <a class="bottom-nav__link" href="#top" aria-current="page">
+        <span class="icon icon--22" aria-hidden="true">explore</span>
+        <span>Explore</span>
+      </a>
+      <a class="bottom-nav__link" href="#tracking">
+        <span class="icon icon--22" aria-hidden="true">receipt_long</span>
+        <span>Activity</span>
+      </a>
+      <a class="bottom-nav__link" href="#safety">
+        <span class="icon icon--22" aria-hidden="true">shield</span>
+        <span>Safety</span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+<button class="to-top" id="to-top" type="button" aria-label="Back to top">
+  <span class="icon icon--22" aria-hidden="true">arrow_upward</span>
+</button>
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <span class="icon icon--18" aria-hidden="true">check_circle</span>
+  <span id="toast-text"></span>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

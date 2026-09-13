@@ -1,0 +1,13 @@
+{
+  "name": "CityRideTaxi",
+  "short_name": "CityRide",
+  "description": "Taxi booking across Tamil Nadu — price-locked fares, live tracking, verified drivers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f9ff",
+  "theme_color": "#8d4b00",
+  "lang": "en-IN",
+  "icons": [
+    { "src": "assets/img/logo-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
