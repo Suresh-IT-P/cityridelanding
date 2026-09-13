@@ -99,40 +99,44 @@
       heading: 'CityRide for Android & iOS',
       badge: 'v2.4.1 Stable',
       desc: 'Instant booking, fare lock, and live track your driver directly from your smartphone.',
-      submeta: 'No Play Store required • 38 MB • SHA-256 Verified',
-      pkg: 'cityride-customer-v2.4.1.apk',
+      submeta: 'No Play Store required • 45.8 MB • SHA-256 Verified',
+      pkg: 'cityride-customer-release.apk',
+      href: 'assets/apks/cityride-customer-release.apk',
       abi: 'Universal APK (ARM64, v7a, x86_64) • Android 6.0+',
-      size: '38.4 MB',
-      cta: 'Download Direct APK (v2.4.1)'
+      size: '45.8 MB',
+      cta: 'Download Direct APK'
     },
     driver: {
       heading: 'CityRide Captain App',
       badge: 'v2.4.0 Stable',
       desc: 'Accept trip dispatches, track weekly settlements, and access GPS navigation assistance.',
-      submeta: 'Captain build • 41 MB • SHA-256 Verified',
-      pkg: 'cityride-captain-v2.4.0.apk',
+      submeta: 'Captain build • 45.8 MB • SHA-256 Verified',
+      pkg: 'cityride-driver-release.apk',
+      href: 'assets/apks/cityride-driver-release.apk',
       abi: 'Universal APK (ARM64, v7a) • Android 8.0+',
-      size: '41.2 MB',
-      cta: 'Download Captain APK (v2.4.0)'
+      size: '45.8 MB',
+      cta: 'Download Captain APK'
     },
     vendor: {
       heading: 'CityRide Vendor Console',
       badge: 'v1.2.0 Stable',
       desc: 'Manage your fleet, track driver performance, and monitor daily revenue streams from a centralized dashboard.',
-      submeta: 'Vendor build • 33 MB • SHA-256 Verified',
-      pkg: 'cityride-vendor-v1.2.0.apk',
+      submeta: 'Vendor build • 45.8 MB • SHA-256 Verified',
+      pkg: 'cityride-vendor-release.apk',
+      href: 'assets/apks/cityride-vendor-release.apk',
       abi: 'Universal APK (ARM64, v7a) • Android 8.0+',
-      size: '33.5 MB',
-      cta: 'Download Vendor APK (v1.2.0)'
+      size: '45.8 MB',
+      cta: 'Download Vendor APK'
     },
     apk: {
       heading: 'Direct APK Mirror — All Builds',
       badge: 'Standalone Sideload',
       desc: 'Signed standalone packages hosted on the CityRide release mirror. No store account required.',
-      submeta: 'Customer 38 MB • Captain 41 MB • Fleet Console 33 MB',
-      pkg: 'cityride-universal-bundle-v2.4.1.apk',
+      submeta: 'Customer 45 MB • Captain 45 MB • Fleet Console 45 MB',
+      pkg: 'cityride-customer-release.apk',
+      href: 'assets/apks/cityride-customer-release.apk',
       abi: 'Universal bundle (ARM64, v7a, x86_64) • Android 6.0+',
-      size: '112 MB',
+      size: '137 MB',
       cta: 'Download All Direct APKs'
     }
   };
@@ -144,11 +148,15 @@
     var data = APPS[key];
     if (!data || !panel) return;
     Object.keys(data).forEach(function (field) {
+      if (field === 'href') return;
       var node = $('[data-app="' + field + '"]', panel);
       if (node) node.textContent = data[field];
     });
     var dl = $('#apk-download');
-    if (dl) dl.setAttribute('download', data.pkg);
+    if (dl) {
+      dl.setAttribute('download', data.pkg);
+      if (data.href) dl.setAttribute('href', data.href);
+    }
   }
 
   function selectTab(key, focus) {
@@ -177,14 +185,6 @@
       selectTab(next.getAttribute('data-tab'), true);
     });
   });
-
-  var apkDownload = $('#apk-download');
-  if (apkDownload) {
-    apkDownload.addEventListener('click', function (e) {
-      e.preventDefault();
-      toast('Release build not wired up yet — point this button at your APK URL.');
-    });
-  }
 
   var verifyBtn = $('#verify-sha');
   if (verifyBtn) {
